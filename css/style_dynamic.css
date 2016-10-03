@@ -1,0 +1,484 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	.content{
+		margin-top: 0;
+	}
+
+	.logo_wrapper,
+	.side_menu_button,
+	.shopping_cart_inner{
+		height: 160px;
+	}
+
+			.content.content_top_margin{
+			margin-top: 160px !important;
+		}
+		
+
+	header:not(.centered_logo) .header_fixed_right_area {
+	    line-height: 160px;
+	}
+
+
+
+
+	header.sticky .header_bottom,
+	header.fixed.scrolled .header_bottom,
+	header.fixed_hiding.scrolled .header_bottom{
+		box-shadow: none; 
+		-webkit-box-shadow: none;
+	}
+
+
+
+        @media only screen and (min-width: 1000px){
+            header.fixed_hiding .q_logo a,
+            header.fixed_hiding .q_logo{
+                max-height: 79.5px;
+            }
+        }
+    
+
+
+
+    .touch section.parallax_section_holder{
+		height: auto !important;
+		min-height: 300px;
+		background-position: center top !important;
+		background-attachment: scroll;
+        background-size: cover;
+	}
+nav.main_menu > ul > li > a{
+	line-height: 160px;
+}
+
+
+
+
+
+nav.main_menu > ul > li > a{
+	 color: #393939; 		 font-size: 18px;     		 font-weight: 700; 	 text-transform: capitalize;  	
+	 letter-spacing: 0px; }
+
+
+
+    nav.main_menu > ul > li:not(:first-child):before,
+    header.stick_with_left_right_menu.sticky nav.main_menu.right_side > ul > li:not(:first-child):before{
+                 font-size: 18px;     }
+
+	nav.main_menu > ul > li:not(:first-child):before,
+	header.stick_with_left_right_menu.sticky nav.main_menu.right_side > ul > li:not(:first-child):before,
+	header.stick_with_left_right_menu.sticky nav.main_menu.right_side > ul > li:first-child:before{ 
+		content: none; 
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	h2{
+				font-size: 32px; 						font-weight: 800; 	    letter-spacing: 0px; 		text-transform: capitalize; 	}
+	h2, h2 a{
+			}		
+	h3{
+				font-family: 'Raleway', sans-serif;
+				font-size: 28px; 				font-style: normal; 		font-weight: 700; 	    letter-spacing: 0px; 		text-transform: capitalize; 	}
+	h3, h3 a{
+			}
+	h4{
+				font-size: 16px; 						font-weight: 700; 	    letter-spacing: 0px; 		text-transform: capitalize; 	}
+	h4,	h4 a{
+			}
+	h5{
+				font-size: 20px; 						font-weight: 800; 	    letter-spacing: 0px; 		text-transform: capitalize; 	}
+	h5,	h5 a{
+			}
+	h6{
+				font-family: 'Raleway', sans-serif;
+				font-size: 14px; 				font-style: normal;  		font-weight: 600; 					}
+	h6, h6 a{
+			}
+
+
+
+
+
+
+	blockquote h3, blockquote > p{
+		font-family: Raleway, sans-serif;font-size: 18px;letter-spacing: 0px;font-weight: 600;font-style: normal;text-transform: none;color: #8b8b8b	}
+
+
+
+	.title h1{
+		color: #ffffff; 				font-size: 42px; 								letter-spacing: 0px; 		text-transform: capitalize; 	}
+
+	.subtitle{
+    color: #ffffff;             font-family: 'Raleway', sans-serif;
+        font-size: 21px; 	    font-style: normal; 	font-weight: 600; 	text-transform: none; 		
+	}
+
+
+
+
+
+
+
+
+
+	.blog_holder.masonry article:not(.format-quote):not(.format-link) h4, 
+	.blog_holder.masonry_full_width article:not(.format-quote):not(.format-link) h4,
+	.latest_post_holder .latest_post_title{
+		font-size: 18px	}
+
+
+
+
+
+
+
+
+
+
+
+	.blog_holder.blog_single article.format-quote .post_text .post_title h3, 
+	.blog_holder.blog_single article.format-link .post_text .post_title h3,
+	.blog_holder.blog_single article.format-quote .post_text .quote_author{
+		font-weight: 600	}
+
+
+	.blog_holder article .post_info,
+	.latest_post_holder .post_info_section span, .latest_post_holder .post_info_section a{
+		font-family: Raleway, sans-serif;font-weight: 700;font-style: normal;text-transform: capitalize	}
+
+
+
+
+
+	.blog_holder.masonry .post_author, 
+	.blog_holder.masonry .post_author a, 
+	.blog_holder.masonry_full_width .post_author, 
+	.blog_holder.masonry_full_width .post_author a,
+	.latest_post_holder .post_author, .latest_post_holder a.post_author_link{
+		font-family: Raleway, sans-serif;font-weight: 600;font-style: normal;text-transform: capitalize	}
+
+
+
+
+
+
+
+
+
+
+
+	.price_table_inner ul li.table_title .title_content{
+		font-size: 19px;letter-spacing: 0px;font-weight: 700;text-transform: capitalize	}
+
+	.price_in_table .mark{
+		font-family: Raleway, sans-serif;font-style: normal	}
+
+
+
+	.price_table_inner .price_button a{
+		font-size: 17px;letter-spacing: 1px;font-weight: 800	}
+
+
+
+
+
+
+
+
+
+
+
+
+	.qbutton:hover,
+	.qbutton:not(.white):hover,
+	.qbutton.medium:hover,
+	#submit_comment:hover,
+	.load_more a:hover,
+	.blog_load_more_button a:hover,
+	.blog_holder article .post_text a.more-link:hover span{
+	    color: #ffffff;background-color: #393939;border-color: #393939;	}
+	
+	#back_to_top > span{
+		background-color: #585858;	}
+	
+	#back_to_top:hover > span{
+		background-color: #737373;	}
+	
+
+
+
+
+
+
+
+
+
+
+	.q_counter_holder p.counter_text{
+			font-weight: 600; 		text-transform: capitalize; 			font-size: 14px; line-height: 1.25em; 	}
+
+
+
+
+.q_google_map{
+	height: 365px;
+}
+
+
+
+
+
+	.footer_bottom_holder{
+		background-color:#393939;
+	}
+
+	
+	.footer_bottom, 
+	.footer_bottom span:not(.q_social_icon_holder):not(.fa-stack):not(.social_icon),
+	.footer_bottom p{
+		color: #ffffff	}
+
+
+
+
+
+
+
+
+	aside.sidebar .widget h4,
+	.woocommerce aside.sidebar .widget h4{
+		letter-spacing: 0px	}
+
+	aside.sidebar .widget:not(.woocommerce) a,
+	.woocommerce aside.sidebar .woocommerce.widget ul.product-categories a,
+	.woocommerce-page aside.sidebar .woocommerce.widget ul.product-categories a,
+	.woocommerce aside.sidebar .woocommerce.widget ul.product-categories ul.children li a,
+	aside ul.product-categories ul.children li a,
+	.woocommerce-page aside.sidebar .woocommerce.widget ul.product-categories ul.children li a,
+	aside.sidebar .widget.woocommerce ul.product-categories li a{
+		font-family: Raleway, sans-serif;font-size: 13px;font-style: normal	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+    .projects_holder article .portfolio_shader, .projects_masonry_holder article .portfolio_shader, .portfolio_slides .portfolio_shader{
+        background-color: rgba(57,57,57,1);
+    }
+
+		
+
+
+
+
+
+
+
+
+.filter_holder ul li.filter_title span{
+	color: #868686;font-size: 16px;font-weight: 600;letter-spacing: 0px;text-transform: capitalize;}
+
+.filter_holder ul li:not(.filter_title) span{
+color: #868686;font-size: 16px;font-weight: 600;letter-spacing: 0px;text-transform: capitalize;    }
+    .filter_holder ul li span:after{
+        color: #868686;
+    }
+
+    .projects_holder.standard article .portfolio_title, .projects_holder.standard article .portfolio_title a, .projects_holder.standard_no_space article .portfolio_title, .projects_holder.standard_no_space article .portfolio_title a{
+    	font-size: 18px;letter-spacing: 0px;    }
+    
+    .projects_holder.standard article .project_category, .projects_holder.standard_no_space article .project_category{
+    font-family: Raleway;font-size: 13px;font-style: normal;font-weight: 500;    }
+    
+    .projects_holder.hover_text article .portfolio_title, .projects_masonry_holder article .portfolio_title, .portfolio_slides .portfolio_title{
+    	font-size: 22px;font-weight: 700;letter-spacing: 0px;text-transform: capitalize;    }
+    
+    .projects_holder.hover_text article .project_category, .portfolio_slides .project_category, .projects_masonry_holder .project_category{
+    font-family: Raleway;font-size: 14px;line-height: 35px;font-style: normal;font-weight: 500;letter-spacing: 0px;    }
+    
+    .projects_holder article .icons_holder a,
+	.projects_masonry_holder article .icons_holder a,
+	.portfolio_slides .icons_holder a{
+		 color: #ffffff; 		 background-color: transparent; 		 border-color: transparent; 			}
+
+    .projects_holder article .icons_holder a:hover,
+	.projects_masonry_holder article .icons_holder a:hover,
+	.portfolio_slides .icons_holder a:hover{
+		 color: #ffffff; 		 background-color: transparent; 		 border-color: transparent; 	}
+
+
+
+
+
+
+
+
+
+
+	.woocommerce-page ul.products li.product, 
+	.woocommerce ul.products li.product{
+		text-align: left;
+	}
+
+
+
+
+
+	.woocommerce ul.products li.product span.product-categories,
+	.woocommerce-page ul.products li.product span.product-categories{
+		display:none;
+	}
+	.woocommerce-page ul.products li.product .product_info_box,
+	.woocommerce ul.products li.product .product_info_box{
+		padding-top:18px;
+	}
+
+	.woocommerce ul.products li.product span.product-title,
+	.woocommerce aside ul.product_list_widget li a,
+	aside ul.product_list_widget li a{
+		font-size: 16px;letter-spacing: 0px;text-transform: capitalize	}
+
+
+	.woocommerce ul.products li.product .price, 
+	.woocommerce-page ul.products li.product .price,
+	.woocommerce ul.products li.product del .amount, .woocommerce-page ul.products li.product del .amount,
+	.woocommerce aside ul.product_list_widget li span.amount, 
+	aside ul.product_list_widget li span.amount{
+		font-family: "Raleway", sans-serif;font-size: 16px;letter-spacing: 0px;font-weight: 600;font-style: normal	}
+
+
+	.woocommerce .product .onsale.out-of-stock-button{
+		font-family: Raleway, sans-serif;font-size: 12px;line-height: 18px;letter-spacing: 0px;font-weight: 700;font-style: normal;text-transform: uppercase	}
+
+
+
+
+
+	.woocommerce .woocommerce-result-count{
+		text-transform: capitalize	}
+
+	.woocommerce ul.products li.product .add-to-cart-button,
+	.woocommerce ul.products li.product .added_to_cart,
+	.woocommerce .widget_price_filter .button, 
+	.woocommerce-page .widget_price_filter .button,
+	.woocommerce .widget_shopping_cart_content p.buttons a.button,
+	.woocommerce .button, 
+	.woocommerce-page .button, 
+	.woocommerce button.button, 
+	.woocommerce-page button.button, 
+	.woocommerce-page input[type="submit"], 
+	.woocommerce input[type="submit"]{
+		color: #ffffff;background-color: #e6ae48;border-color: #e6ae48	}
+	.woocommerce ul.products li.product a.add_to_cart_button:hover,
+	.woocommerce-page ul.products li.product a.add_to_cart_button:hover,
+	.woocommerce ul.products li.product .added_to_cart:hover,
+	.woocommerce-page ul.products li.product .added_to_cart:hover,
+	.woocommerce .widget_price_filter .button:hover, 
+	.woocommerce-page .widget_price_filter .button:hover,
+	.woocommerce .widget_shopping_cart_content p.buttons a.button:hover,
+	.woocommerce .button:hover, 
+	.woocommerce-page .button:hover, 
+	.woocommerce button.button:hover, 
+	.woocommerce-page button.button:hover, 
+	.woocommerce-page input[type="submit"]:hover, 
+	.woocommerce input[type="submit"]:hover{
+		color: #ffffff;background-color: #393939;border-color: #393939	}
+
+
+
+
+	
+	
+	.woocommerce div.product div.product_meta > span span,
+	.woocommerce div.product div.product_meta > span a{
+		font-family: Raleway, sans-serif;font-weight: 600;font-style: normal	}
+	
+
+	.woocommerce .product h2.product_title{
+		font-size: 32px;letter-spacing: 0px;font-weight: 700	}
+
+
+	.woocommerce.single-product button.single_add_to_cart_button{
+		color: #ffffff;background-color: #e6ae48;border-color: #e6ae48	}
+	.woocommerce.single-product button.single_add_to_cart_button:hover{
+		color: #ffffff;background-color: #393939;border-color: #393939	}
+
+	.woocommerce div.product .summary p.price span.amount{
+		font-family: "Raleway", sans-serif;font-size: 28px;line-height: 40px;letter-spacing: 0px;font-weight: 700;font-style: normal	}
+
+	
+
+
+
+
+
+
+
+
+
