@@ -30,6 +30,7 @@
   <link rel="stylesheet" id="qode_style_dynamic_responsive-css" href="{{site.baseurl}}/css/style_dynamic_responsive.css" type="text/css" media="all">
   <link rel="stylesheet" id="qode_mac_stylesheet-css" href="{{site.baseurl}}/css/mac_stylesheet.css" type="text/css" media="all">
   <link rel="stylesheet" id="qode_webkit-css" href="{{site.baseurl}}/css/webkit_stylesheet.css" type="text/css" media="all">
+  <link rel="stylesheet" id="js_composer_css" href="{{site.baseurl}}/css/js_composer.css" type="text/css" media="screen">
   <link rel="stylesheet" id="js_composer_custom_css-css" href="{{site.baseurl}}/css/custom.css" type="text/css" media="screen">
 </head>
 
@@ -39,15 +40,7 @@
 <div class="wrapper_inner">
 <!-- Google Analytics start -->
 		<script>
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-54686500-1']);
-			_gaq.push(['_trackPageview']);
 
-			(function() {
-				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
 		</script>
 	<!-- Google Analytics end -->
 
@@ -78,67 +71,29 @@
 							</div>
 						<nav class="main_menu drop_down right">
 							<ul id="menu-top_menu" class="">
-                <li id="nav-menu-item-9723" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home  narrow active">
-                  <a href="" class="current">
-                    <i class="menu_icon fa blank"></i>
-                    <span>Home</span>
-                    <span class="plus"></span>
-                  </a>
-                </li>
-                <li id="nav-menu-item-9729" class="menu-item menu-item-type-custom menu-item-object-custom">
-                  <a href="#" class="">
-                    <i class="menu_icon fa blank"></i>
-                    <span>Projects</span>
-                    <span class="plus"></span>
-                  </a>
-                </li>
-                <li id="nav-menu-item-18512" class="menu-item menu-item-type-custom menu-item-object-custom">
-                  <a href="#" class="">
-                    <i class="menu_icon fa blank"></i>
-                    <span>About</span>
-                    <span class="plus"></span>
-                  </a>
-                </li>
-                <li id="nav-menu-item-9779" class="menu-item menu-item-type-custom menu-item-object-custom">
-                  <a href="#" class="">
-                    <i class="menu_icon fa blank"></i>
-                    <span>Blog</span>
-                    <span class="plus"></span>
-                  </a>
-                </li>
-                <li id="nav-menu-item-21141" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children  has_sub narrow">
-                  <a href="#" class="">
-                    <i class="menu_icon fa blank"></i>
-                    <span>Catalogue</span>
-                    <span class="plus"></span>
-                  </a>
-                </li>
-              </ul>
-            </nav>
-						<nav class="mobile_menu">
-							<ul id="menu-top_menu-1" class="">
-                <li id="mobile-menu-item-9723" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home active">
-                  <a href="" class="current">
-                    <span>Home</span>
-                  </a>
-                </li>
-                <li id="mobile-menu-item-9729" class="menu-item menu-item-type-custom menu-item-object-custom">
-                  <a href="#" class="">
-                    <span>Projects</span>
-                  </a>
-                </li>
-                <li id="mobile-menu-item-18512" class="menu-item menu-item-type-custom menu-item-object-custom">
-                  <a href="#" class="">
-                    <span>About</span></a>
-                </li>
-                <li id="mobile-menu-item-18512" class="menu-item menu-item-type-custom menu-item-object-custom">
-                  <a href="#" class="">
-                    <span>Blog</span></a>
-                </li>
-                <li id="mobile-menu-item-18512" class="menu-item menu-item-type-custom menu-item-object-custom">
-                  <a href="#" class="">
-                    <span>Catalogue</span></a>
-                </li>
+
+
+
+                  <li id="nav-menu-item-9723" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home  narrow {% if page.url == "/" %} active {% endif %}">
+                    <a href="/" class="">
+                      <i class="menu_icon fa blank"></i>
+                      <span>Home</span>
+                    </a>
+                  </li>
+                {% for item in site.navigation %}
+                    {% assign class = nil %}
+                    {% if page.url contains item.url %}
+                        {% assign class = 'active' %}
+                    {% endif %}
+                    <li id="nav-menu-item-9723" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home  narrow {{ class }}">
+                      <a href="{{ item.url }}" class="">
+                        <i class="menu_icon fa blank"></i>
+                        <span>{{ item.title }}</span>
+                      </a>
+                    </li>
+
+                {% endfor %}
+
               </ul>
             </nav>
 					</div>
