@@ -10,6 +10,12 @@ h6 {
    color: #666666 !important;
 }
 
+
+.link-underlined {
+  color: #8d8d8d;
+  text-decoration: underline;
+}
+
 nav.main_menu>ul>li>a {
   color: #484443 !important;
 }
@@ -45,6 +51,15 @@ nav.main_menu>ul>li>a>span:hover {
 aside.sidebar .widget h4 {
   background: #484443 url(/img/grey-blocks-background-small-bg.jpg) no-repeat;
 }
+
+/*About Page */
+
+
+.q_icon_with_title .icon_text_holder .icon_title {
+   margin: 0;
+}
+
+
 
 ::selection {
   background:#484443;
