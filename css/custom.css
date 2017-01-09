@@ -52,18 +52,22 @@ aside.sidebar .widget h4 {
   background: #484443 url(/img/grey-blocks-background-small-bg.jpg) no-repeat;
 }
 
- @media only screen and (max-width: 1000px) {
-      img.normal {
-        height: 90px;
+@media only screen and (max-width: 1000px) {
+    img.normal {
+      height: 90px;
     }
-  }
 
-  @media only screen and (min-width: 1000px) {
-      img.normal {
-        margin-top: 50px;
-        height: 140px;
+    .column_inner {
+      margin-top: 20px;
     }
+}
+
+@media only screen and (min-width: 1000px) {
+    img.normal {
+      margin-top: 50px;
+      height: 140px;
   }
+}
 
 /*About Page */
 
