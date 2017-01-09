@@ -27,7 +27,8 @@
 	.logo_wrapper,
 	.side_menu_button,
 	.shopping_cart_inner{
-		height: 160px;
+		/*height: 160px;*/
+		height: 60px;
 	}
 
 			.content.content_top_margin{
