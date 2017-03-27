@@ -16,9 +16,8 @@ h6 {
   text-decoration: underline;
 }
 
-/*Nav Menu*/
 nav.main_menu>ul>li>a {
-  color: #484443 !important;
+  color: #fff !important;
 }
 
 nav.main_menu>ul>li>a>span {
@@ -48,24 +47,7 @@ nav.main_menu>ul>li>a>span:hover {
   border: 1px solid #484443;
 }
 
-/*Mobile Menu*/
-@media only screen and (max-width: 1000px)
-.mobile_menu_button {
-    display: table;
-}
 
-.mobile_menu_button {
-    display: none;
-    float: left;
-    height: 100px;
-    margin: 0 20px 0 0;
-    margin-top: 0px;
-    margin-right: 20px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-}
-
-/**/
 aside.sidebar .widget h4 {
   background: #484443 url(/img/grey-blocks-background-small-bg.jpg) no-repeat;
 }

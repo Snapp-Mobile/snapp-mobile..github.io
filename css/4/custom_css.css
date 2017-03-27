@@ -1,0 +1,160 @@
+
+
+.full_width {
+	position: relative !important;
+}
+
+.footer_top_holder .q_social_icon_holder span.large {
+    font-size: 29px;
+}
+
+.footer_top_holder .q_social_icon_holder {
+    margin: 0 25px 14px 0 !important;
+}
+
+.footer_top.footer_top_full {
+    padding: 5%;
+}
+
+div.wpcf7 img.ajax-loader {
+    display: none !important;
+}
+
+
+@media only screen  and (max-width: 1500px) {
+.q_slider .carousel-inner .q_slide_title {
+    font-size: 95px !important;
+    line-height: 100px !important;
+}
+}
+
+@media only screen  and (max-width: 1500px) {
+.q_slider .carousel-inner .q_slide_text {
+    font-size: 22px !important;
+    line-height: 33px !important;
+}
+}
+
+@media only screen  and (max-width: 600px) {
+.q_slider .carousel-inner .q_slide_title {
+    font-size: 65px !important;
+    line-height: 50px !important;
+}
+}
+
+@media only screen  and (max-width: 600px) {
+.q_slider .carousel-inner .q_slide_text {
+    font-size: 18px !important;
+    line-height: 24px !important;
+}
+}
+
+.q_slider .carousel-control .prev_nav, .carousel-control .next_nav{
+    height: 90px;
+    width: 90px;
+    line-height: 90px;
+    font-size: 75px;
+}
+
+.carousel-indicators li, .carousel-indicators .active {
+    margin: 0px 12px;
+}
+
+.testimonials_holder .flex-control-paging li a {
+        margin-right: 25px;
+}
+
+
+.footer_top .widget_nav_menu li.menu-item a {
+ display: inline-block;
+ position: relative;
+}
+
+.footer_top .widget_nav_menu li.menu-item a:after {
+ content: '';
+ position: absolute;
+ width: 0;
+ left: 0;
+ bottom: 0;
+ border-bottom: 1px solid #fff;
+ transition: width 0.3s ease-out;
+ -webkit-transition: width 0.3s ease-out;
+}
+
+.footer_top .widget_nav_menu li.menu-item a:hover:after {
+ width: 100%;
+}
+
+.info_section_title {
+margin-bottom: 20px;
+}
+
+.flexslider .flex-prev {
+left: 0px;
+}
+
+.flexslider .flex-next {
+right: 0px;
+}
+.popup_menu_opened .header_top,
+.popup_menu_opened .header_bottom{
+	border-bottom: 1px solid rgba(255,255,255,0) !important;
+}
+@media only screen and (max-width: 768px) {
+	.title h1 {
+		line-height: 1.4em;
+	}
+}
+.widget.widget_search form input[type="text"] {
+    height: 43px;
+}
+.widget.widget_search form input[type="submit"] {
+    height: 43px;
+    line-height: 43px;
+    width: 43px;
+}
+div.comment_form {
+    margin: 0 0 65px;
+}
+
+#respond textarea {
+	margin: 0 0 19px 0;
+}
+#commentform .three_columns {
+	margin-bottom: 10px;
+}
+.page-id-188 .title h1,
+.page-id-344 .title h1 {
+	margin-bottom: 13px;
+}
+
+.projects_holder article .holder-move .icons_holder a{
+font-size:34px;
+}
+
+@media only screen and (max-width: 1300px) {
+	.q_slider .carousel-inner .q_slide_title {
+		font-size: 88px !important;
+		line-height: 88px !important;
+	}
+	.q_slider .carousel-inner .q_slide_title span {
+		line-height: 1em !important;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.q_slider .carousel-inner .q_slide_title {
+		font-size: 48px !important;
+		line-height: 48px !important;
+	}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1300px) {
+	.projects_holder.hover_text article .portfolio_title, 
+	.projects_masonry_holder article .portfolio_title, .portfolio_slides .portfolio_title {
+		font-size: 22px;
+		line-height: 28px;
+	}
+}
+
+.wpb_gmaps_widget .wpb_wrapper {
+    padding: 0px;
+}

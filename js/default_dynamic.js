@@ -27,7 +27,7 @@ var add_for_admin_bar = 0;
 	header_height = 160;
 var logo_height = 130; // stockholm logo height
 var logo_width = 280; // stockholm logo width
-	logo_height = 159;
+	logo_height = 100;
 	logo_width = 204;
 	
 	header_top_height = 0;
