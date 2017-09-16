@@ -24,11 +24,11 @@ var content_line_height = 60;
 var header_bottom_border_weight = 1;
 var scroll_amount_for_fixed_hiding = 200;
 var add_for_admin_bar = 0;
-	header_height = 122;
+	header_height = 160;
 var logo_height = 130; // stockholm logo height
 var logo_width = 280; // stockholm logo width
-	logo_height = 260;
-	logo_width = 424;
+	logo_height = 159;
+	logo_width = 204;
 	
 	header_top_height = 0;
 var loading_text;
@@ -61,7 +61,7 @@ function initialize() {
 	geocoder = new google.maps.Geocoder();
 	var latlng = new google.maps.LatLng(-34.397, 150.644);
 	var myOptions = {
-		zoom: 12,
+		zoom: 10,
 				scrollwheel: false,
 				center: latlng,
 		zoomControl: true,
@@ -115,7 +115,7 @@ function codeAddress(data) {
 			var marker = new google.maps.Marker({
 				map: map, 
 				position: results[0].geometry.location,
-								icon:  'http://demo.select-themes.com/stockholm16/wp-content/uploads/2014/08/pin.png',
+								icon:  'http://demo.select-themes.com/stockholm20/wp-content/uploads/2014/08/pin.png',
 								title: data['store_title']
 			});
 			google.maps.event.addListener(marker, 'click', function() {
@@ -148,9 +148,9 @@ function showContactMap() {
 }
 
 var no_ajax_pages = [];
-var qode_root = 'http://demo.select-themes.com/stockholm16/';
-var theme_root = 'http://demo.select-themes.com/stockholm16/wp-content/themes/stockholm/';
-var header_style_admin = "light";
+var qode_root = 'http://demo.select-themes.com/stockholm20/';
+var theme_root = 'http://demo.select-themes.com/stockholm20/wp-content/themes/stockholm/';
+var header_style_admin = "";
 if(typeof no_ajax_obj !== 'undefined') {
 	no_ajax_pages = no_ajax_obj.no_ajax_pages;
 }

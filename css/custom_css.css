@@ -1,2 +1,13 @@
 
 
+body.home footer{display: none;}
+.q_tabs .tabs-nav li.active a, .q_tabs .tabs-nav li a:hover{background-color:#393939;}
+
+.woocommerce .select2-container.orderby .select2-choice,
+.woocommerce-page .select2-container.orderby .select2-choice,
+.woocommerce .select2-dropdown-open.select2-drop-above.orderby .select2-choice,
+.woocommerce .select2-dropdown-open.select2-drop-above.orderby .select2-choices,
+.woocommerce-page .select2-dropdown-open.select2-drop-above.orderby .select2-choice,
+.woocommerce-page .select2-dropdown-open.select2-drop-above.orderby .select2-choices{
+      background-color:#f8f8f8;
+}
